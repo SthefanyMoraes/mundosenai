@@ -1,0 +1,31 @@
+body
+{
+    background-image: url(foto1.jpg);
+}
+.pag1 img 
+{
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+
+}
+.pag1
+{
+    background-color: black;
+    color: aliceblue;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 50px 60px;
+    margin: auto;
+    width: 20%;
+    height: 45vh;
+    margin-top: 10%;
+}
+.lp
+{
+    
+    display: block;
+    font-family:system-ui;
+    justify-content:center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+body
+{
+    background-image: url(back.avif);
+}
+.blabla
+{
+    background-color: black;
+    color: aliceblue;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 50px 60px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    height: 30vh;
+    margin-top: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+}

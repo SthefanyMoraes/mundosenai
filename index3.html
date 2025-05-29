@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+
+    <div class="div1">
+        <script>
+            function operacao(valor)
+            {
+                var num1 = document.getElementById("num1").value;
+            var num2 = document.getElementById("num2").value;
+            var resultado = valor == 1 ? parseInt(num1)+parseInt(num2) :
+             valor == 2 ? parseInt(num1)-parseInt(num2) :
+             valor == 3 ? parseInt(num1)*parseInt(num2) :
+             valor == 4 && parseInt(num2) != 0 
+              ? parseInt(num1)/parseInt(num2) : "Inváldo";
+            document.getElementById("resultado").innerText =resultado  
+            }
+        </script>
+        <label>Número 1</label>
+        <input type="number" id="num1" required>
+        <label>Número 2</label>
+        <input type="number" id="num2" required>
+        <button id="numButton" onclick="operacao(1)">Somar</button>
+        <button id="numButton" onclick="operacao(2)">Subtração</button>
+        <button id="numButton" onclick="operacao(3)">Multiplicação</button>
+        <button id="numButton" onclick="operacao(4)">Divisão</button>
+        <h3 id="resultado"></h3>
+    </div>
+
+</body>
+</html>
